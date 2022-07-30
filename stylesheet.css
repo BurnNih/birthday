@@ -12,7 +12,7 @@ body {
 	display: none;
 }
 .peach {
-	background-color: #545454;
+	background-color: #FFDAB9;
 	
 }
 .peach-after {
@@ -25,90 +25,90 @@ body {
 
 @-webkit-keyframes peach_alive {
 	0%{
-		background-color: #545454;
+		background-color: #FFDAB9;
 	}
 	25%{
-		background-color: #6a6a6a;
+		background-color: #FFE4B5;
 	}
 	50%{
-		background-color: #545454;
+		background-color: #FFDAB9;
 	}
 	75%{
-		background-color: #3f3f3f;
+		background-color: #FFEFD5;
 	}
 	100%{
-		background-color: #545454;
+		background-color: #FFDAB9;
 	}
 }
 @-moz-keyframes peach_alive {
 	0%{
-		background-color: #545454;
+		background-color: #FFDAB9;
 	}
 	25%{
-		background-color: #6a6a6a;
+		background-color: #FFE4B5;
 	}
 	50%{
-		background-color: #545454;
+		background-color: #FFDAB9;
 	}
 	75%{
-		background-color: #3f3f3f;
+		background-color: #FFEFD5;
 	}
 	100%{
-		background-color: #545454;
+		background-color: #FFDAB9;
 	}
 }
 
 @-o-keyframes peach_alive {
 	0%{
-		background-color: #545454;
+		background-color: #FFDAB9;
 	}
 	25%{
-		background-color: #6a6a6a;
+		background-color: #FFE4B5;
 	}
 	50%{
-		background-color: #545454;
+		background-color: #FFDAB9;
 	}
 	75%{
-		background-color: #3f3f3f;
+		background-color: #FFEFD5;
 	}
 	100%{
-		background-color: #545454;
+		background-color: #FFDAB9;
 	}
 }
 
 @-ms-keyframes peach_alive {
 	0%{
-		background-color: #545454;
+		background-color: #FFDAB9;
 	}
 	25%{
-		background-color: #6a6a6a;
+		background-color: #FFE4B5;
 	}
 	50%{
-		background-color: #545454;
+		background-color: #FFDAB9;
 	}
 	75%{
-		background-color: #3f3f3f;
+		background-color: #FFEFD5;
 	}
 	100%{
-		background-color: #545454;
+		background-color: #FFDAB9;
 	}
 }
 
 @keyframes peach_alive {
 	0%{
-		background-color: #545454;
+		background-color: #FFDAB9;
 	}
 	25%{
-		background-color: #6a6a6a;
+		background-color: #FFE4B5;
 	}
 	50%{
-		background-color: #545454;
+		background-color: #FFDAB9;
 	}
 	75%{
-		background-color: #3f3f3f;
+		background-color: #FFEFD5;
 	}
 	100%{
-		background-color: #545454;
+		background-color: #FFDAB9;
 	}
 }
 
@@ -1080,10 +1080,10 @@ audio {
 	bottom: -200px;
 	opacity: 0.6;
 	z-index: 99;
-	width: 400px;
-	height: 732px;
+	width: 100px;
+	height: 183px;
 	background-repeat: no-repeat no-repeat;
-	background-size: 400px 732px;
+	background-size: 100px 183px;
 }
 .balloons h2 {
 	text-transform: uppercase;
@@ -1105,7 +1105,15 @@ audio {
 #b4,#b44{
 	background-image: url('b4.png');
 }
-
+#b5,#b55{
+	background-image: url('b5.png');
+}
+#b6,#b66{
+	background-image: url('b6.png');
+}
+#b7,#b77{
+	background-image: url('b7.png');
+}
 .balloons-rotate-behaviour-one {
 	-webkit-animation: balloons_rotate_one linear 10s infinite;
 	-webkit-transform: rotate(30deg);
