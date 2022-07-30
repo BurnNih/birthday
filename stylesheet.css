@@ -1077,12 +1077,13 @@ audio {
 
 .balloons {
 	position: fixed;
-	width: 500px;
-	height: 200px;
-	top: 50%;
-	left: 50%;
-	margin-top: -100px; 
-	margin-left: -250px; 
+	bottom: -200px;
+	opacity: 0.6;
+	z-index: 99;
+	width: 400px;
+	height: 732px;
+	background-repeat: no-repeat no-repeat;
+	background-size: 400px 732px;
 }
 .balloons h2 {
 	text-transform: uppercase;
