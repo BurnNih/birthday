@@ -1083,9 +1083,11 @@ audio {
 	opacity: 0.6;
 	z-index: 99;
 	width: 100px;
-	height: 183px;
+	height: 184px;
+	margin-top: 92px;
+	margin-left: 50px;
 	background-repeat: no-repeat no-repeat;
-	background-size: 100px 183px;
+	background-size: 100px 184px;
 }
 .balloons h2 {
 	text-transform: uppercase;
